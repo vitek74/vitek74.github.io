@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+
+    background: #F0F8FF ;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+/*основное окно*/
+.page {
+    width: 1200px;
+    margin: 20px auto;
+
+    background-color: rgba(205, 227, 223, 0.93);
+}
+
+.container {
+    display: flex;
+}
+
+.jpg{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Header */
+
+.header {
+    padding: 20px;
+
+    background-color: #121212;
+}
+
+.header-title {
+    margin: 0;
+
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-size: 16px;
+    color: #56b6fb;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 8px 12px;
+
+    color: #121212;
+    text-decoration: none;
+
+    transition: background-color 0.2s linear;
+}
+
+.nav-link:hover {
+    background-color: #eee;
+}
+
+
+/* Сontent */
+
+.sad-jpg {
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #a7a7a7;
+    background-color: #222;
+    opacity: 1;
+
+    transition: opacity 0.2s linear;
+}
+
+.sad-jpg:hover {
+    opacity: 1;
+}
+
+.content {
+    width: 800px;
+    padding: 0 20px;
+}
+
+.content-title {
+    margin: 0 0 15px;
+
+    font-size: 24px;
+    color: #ce2929;
+}
+
+.content-text {
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #1d7abe;
+    text-decoration: none;
+    
+    
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar боковое окно */
+
+.sidebar {
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(205, 227, 223, 0.93);
+}
+/*оглавление*/
+.sidebar-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #e02525;
+}
+/*картинка*/
+.sidebar-img {
+    background: linear-gradient(to top, #fff, #eee);
+    
+}
+/*текст*/
+.sidebar-text {
+    font-size: 17px;
+}
+
+/* Article основное окно */
+/*общие папаметры*/
+.article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.article-title {
+    margin: 0 0 5px;
+
+    font-size: 18px;
+    color: #0d448e;
+}
+
+.article-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-title a:hover {
+    text-decoration: underline;
+}
+
+.article-date {
+    display: block;
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+
+/* Footer подвал */
+.footer {
+    padding: 20px;
+
+    background-color: #121212;
+
+    color: #fff;
+    text-align: center;
+}
+
+/*Таблица должников*/
+
+    
+.table{
+    width: 100%;
+    border: 1px dashed #aaaaaa;
+    border-collapse: collapse;
+}
+
+.table th{
+    padding: 5px 10px;
+    text-align: left;
+    color: #ef2828;
+    border: 1px dashed #aaaaaa;
+}
+
+.table td{
+    padding: 5px 10px;
+    border: 1px dashed #aaaaaa;
+}
+/*Правление*/
+.article-dd{
+    font-size: 30px;
+    text-shadow: 2px 2px;
+}
+
+.article-dt{
+    color: darkred;
+    font-size: 20px;
+    text-shadow: 1px 1px;
+}
+
+.article-info{
+    
+}
+
+
