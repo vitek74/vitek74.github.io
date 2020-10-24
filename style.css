@@ -214,6 +214,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px 10px;
     border: 1px dashed #aaaaaa;
 }
+/*раскраска таблицы*/
+.table tbody tr:nth-child(even){
+    background-color: blue;
+}
+
 /*Правление*/
 .article-dd{
     font-size: 30px;
