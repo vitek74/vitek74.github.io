@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer подвал */
 .footer {
-    padding: 20px;
+    padding: 10px;
 
     background-color: #121212;
 
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*раскраска таблицы*/
 .table tbody tr:nth-child(even){
-    background-color: blue;
+    background-color: darkorange;
 }
 
 /*Правление*/
